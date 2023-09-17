@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  height: 350px;
+  background: rgba(255, 255, 0, 0.527);
+  position: relative;
+  z-index: -1;
+}
+
+.head:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom: 350px solid white;
+  border-right: 1400px solid rgba(255, 255, 0, 0.089);
+  width: 0;
+}
+.header {
+  margin-top: -330px;
+  display: flex;
+  flex-direction: column;
+  font-size: 23px;
+  align-items: center;
+}
+.pic > img {
+  margin-top: 22px;
+  border: 0;
+  border-radius: 50%;
+}
+.sMedia_info {
+  margin-top: -160px;
+  margin-right: 20px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 10px 70px;
+}
+.sMedia_info > i > a {
+  color: black;
+  text-decoration: none;
+}
+.summary {
+  margin-top: -80px;
+  font-weight: bold;
+  width: 40%;
+  padding: 10px 10px 10px 30px;
+}
+
+.wExperiance {
+  padding: 10px 10px 10px 30px;
+  font-weight: bold;
+}
+.wExperiance > ul {
+  margin-top: 10px;
+}
+.wExperiance > p {
+  margin-top: 10px;
+}
+.education {
+  float: right;
+  margin-top: -170px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.education > h4 {
+  font-size: 20px;
+}
+.education > ul > li {
+  margin-top: 10px;
+}
+.skills {
+  display: flex;
+  /* gap: 40px 20px; */
+  justify-content: space-between;
+}
+.skill {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.skill > h4 {
+  font-size: 20px;
+}
+.skill > li {
+  margin-top: 10px;
+}
+.language > h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.language {
+  margin-top: 10px;
+  margin-right: 400px;
+}
+.language > li {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 15px 15px 15px 30px;
+}
+.project > ul > h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.project > ul > li {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.interests {
+  margin-right: 210px;
+}
